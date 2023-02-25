@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>About_us</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/About_us.css">
+    <link rel="stylesheet" href="static/css/nav,footer.css">
+  </head>
+  <body>
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>About us</title>
+      <link rel="stylesheet" href="{% static 'about.css' %}" />
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+      <link rel="icon" href="{% static 'PICO-LOGO-SHORT.png' %}" type="image/gif">
+    </head>
+    
+    <body>  
+                              <!-- _______navbar_________ -->
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img id="nav_logo" src="static/img/Untitled-1-01.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav " id="navbar-nav">
+                
+                <li class="nav-item active" id="nav-item">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active"id="nav-item">
+                  <a class="nav-link" href="About_us.html">About us <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active"id="nav-item">
+                  <a class="nav-link" href="Services.html">Services <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active"id="nav-item">
+                  <a class="nav-link" href="Contact.html">Contact <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active"id="nav-item">
+                    <a class="nav-link" href="sign_in.html">Sign up <span class="sr-only">(current)</span></a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+      <!-- -----------------------------------------------company---------------------------------------------------------------- -->
+      <div class="company">
+        <div class="img">
+          <img src="https://raw.githubusercontent.com/pico-india/main-django/main/static/about-team.jpg" alt="" />
+        </div>
+        <div class="company-info">
+          <span>PHOTOS <span class="our">FOR EVERYONE</span></span>
+          <p>
+            <b>Pico</b> is a India-based website dedicated for sharing stock photography under the Pico license. Pico allows
+            photographers to upload photos to its website, which are then curated by a team of photo editors. In Pico we are
+            aspiring to be one of the largest photography suppliers on the internet.
+          </p>
+        </div>
+      </div>
+      <!-- ---------------------------------------------------------------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------team-------------------------------------------------------------- -->
+      <div class="team"><span>OUR TEAM</span></div>
+      <div class="container">
+        <div class="card">
+          <div class="card-image loading"><img src="https://images.pexels.com/photos/39866/entrepreneur-startup-start-up-man-39866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" /></div>
+          <div class="card-info">
+            <h3 class="card-title loading"><span>Yash <span class="yellow-surname">Falke</span></span></h3>
+            <p class="card-description loading">
+              <span class="personal-info">
+                <span class="info">Graphic Designing Head</span> <br>
+                Pursuing IT Engineering (VIT Mumbai) <br>
+                Email: <a href="mailto:'yashfalke77@gmail.com'">yashfalke77@gmail.com</a>
+              </span>
+            </p>
+            <div class="card-mediaIcons">
+              <a href="#" class="loading" target="on_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="{% url 'viewprofile' 9 %}" class="loading" target="on_blank"><i><img
+                    src="https://raw.githubusercontent.com/pico-india/main-django/main/static/PICO-LOGO-SHORT.png" alt="Pico"></a></i>
+              <a href="https://www.instagram.com/yashfalke77/" class="loading" target="on_blank"><i
+                  class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image loading"><img src="https://media.istockphoto.com/photos/portrait-of-handsome-latino-african-man-picture-id1007763808?k=20&m=1007763808&s=612x612&w=0&h=q4qlV-99EK1VHePL1-Xon4gpdpK7kz3631XK4Hgr1ls=" alt="" /></div>
+          <div class="card-info">
+            <h3 class="card-title loading"><span>Harsh <span class="yellow-surname">Sunwani</span></span></h3>
+            <p class="card-description loading">
+              <span class="personal-info">
+                <span class="info">Web Developing Head</span> <br>
+                Pursuing IT Engineering (VIT Mumbai) <br>
+                Email: <a href="mailto:'harshsunwani11@gmail.com'">harshsunwani11@gmail.com</a>
+              </span>
+            </p>
+            <div class="card-mediaIcons">
+              <a href="#" class="loading" target="on_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="{% url 'viewprofile' 7 %}" class="loading" target="on_blank"><i><img
+                    src="https://raw.githubusercontent.com/pico-india/main-django/main/static/PICO-LOGO-SHORT.png" alt="Pico"></i></a>
+              <a href="https://www.instagram.com/harshsunwani/" class="loading" target="on_blank"><i
+                  class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image loading"><img src="https://images.pexels.com/photos/837358/pexels-photo-837358.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" /></div>
+          <div class="card-info">
+            <h3 class="card-title loading"><span>Nikhil <span class="yellow-surname">Jaiswal</span></span></h3>
+            <p class="card-description loading">
+              <span class="personal-info">
+                <span class="info">Marketing and Publicity Head</span> <br>
+                Pursuing IT Engineering (VIT Mumbai) <br>
+                Email: <a href="mailto:'nikjaiswal21@gmail.com'">nikjaiswal21@gmail.com</a>
+              </span>
+            </p>
+            <div class="card-mediaIcons">
+              <a href="#" class="loading" target="on_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="{% url 'viewprofile' 6 %}" class="loading" target="on_blank"><i><img
+                    src="https://raw.githubusercontent.com/pico-india/main-django/main/static/PICO-LOGO-SHORT.png" alt="Pico"></a></i>
+              <a href="#" class="loading" target="on_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+                         <!-- ____footer_part____ -->
+<div class="footer">
+
+
+  <footer class="footer-distributed">
+
+<div class="footer-left">
+
+<h3>ARBITECH BUILDERS Pvt Ltd<span><img style="height: 20vh;" src="../../assets/Images/logp.png" alt=""></span></h3>
+
+<p class="footer-links">
+  <a href="#" class="link-1">Home</a>
+
+  <a href="#">Pricing</a>
+
+  <a href="#">About</a>
+
+  <a href="#">pages</a>
+
+  <a href="#">Contact</a>
+</p>
+
+<p class="footer-company-name">ARBITECH BUILDERS Pvt Ltd © 2023</p>
+</div>
+
+<div class="footer-center">
+
+<div>
+  <i class="fa fa-map-marker"></i>
+  <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+</div>
+
+<div>
+  <i class="fa fa-phone"></i>
+  <p>+91.7306064335</p>
+</div>
+
+<div>
+  <i class="fa fa-envelope"></i>
+  <p><a href="mailto:arbitechbuilders@gmail.com">arbitechbuilders@gmail.com</a></p>
+</div>
+
+</div>
+
+<div class="footer-right">
+
+<p style="color: white;" class="footer-company-about">
+  <span>About the company</span>
+  E-commerce (electronic commerce) is the buying and selling of goods and services, or the transmitting of funds or data, over an electronic network, primarily the internet.
+</p>
+
+<div class="footer-icons">
+
+  <a href="#"><i class="fa fa-facebook"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-github"></i></a>
+
+</div>
+
+</div>
+
+</footer>
+
+
+
+
+</div>
+
+
+      <script src="static/js/About_us.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
